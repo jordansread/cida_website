@@ -18,6 +18,9 @@ h5,
 h6 {
   font-weight: normal;
 }
+ul {
+    margin-left:15px;
+}
 em {
   font-style: normal;
   font-weight: normal;
