@@ -564,6 +564,34 @@ article {
 #vizLabel {
   background: #0f416f;
 }
+.diffColor:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 70px solid transparent;
+  border-left: 70px solid transparent;
+  border-right: 70px solid #ef5760;
+  pointer-events: none;
+}
+.underDevelopment {
+  width: 75px;
+  text-align: center;
+  font-size: .65em !important;
+  position: absolute;
+  top: 6px;
+  right: -20px;
+  color: #fff;
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+  z-index: 1000;
+  font-weight: 600;
+}
 #linkarea h1 {
   text-align: center;
   font-size: 2em;
@@ -605,9 +633,10 @@ article {
   border: 1px solid #bebebe;
   border-radius: 5px;
   margin: 0 auto 10px auto;
+  position: relative;
 }
 .dsViz p {
-  font-size: 1em !important;
+  font-size: 1em;
 }
 .dsViz img {
   width: 100%;
