@@ -499,15 +499,19 @@ article {
 .white-area h2 {
   color: #fff;
 }
-#teamFaces {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+
 #noMarginLeft {
   margin-left: 0;
 }
+
+#topFaces,
+#bottomFaces{
+	display: flex;
+	flex-direction: row;
+  	flex-wrap: wrap;
+  	justify-content: center;
+	}
+	
 .dataScienceFace {
   width: 125px;
   padding: 5px;
