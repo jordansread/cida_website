@@ -675,7 +675,7 @@ article {
 }
 .smallerImage {
   width: 200px;
-  margin: 10px 0 0 0;
+  margin: 5px 5px 0 0;
 }
 @media screen and (min-width: 480px) {
   .description h1.mobile {
