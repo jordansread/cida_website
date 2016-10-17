@@ -543,7 +543,7 @@ article {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .package {
   width: 195px;
@@ -997,7 +997,7 @@ article {
     display: inline-block;
   }
   .dsViz {
-    margin: 0 15px 0 0;
+    margin: 10px 15px 0 0;
   }
 }
 /*media_query*/
