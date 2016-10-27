@@ -34,8 +34,36 @@ body {
 html,
 body {
   height: 100%;
+  font-family: Scada, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 /*===========index_start===========*/
+#newSite{
+	min-height:24px;
+	background:#fff;
+	margin: 20px 0 10px 0;
+	text-align:center;
+	padding:13px 0 13px 0;
+}
+
+#newSite span{
+	margin-right:10px;
+	font-size:1.2em;
+}
+
+#newSite button{
+	background:#003366;
+	border:1px solid #003366;
+	border-radius:5px;
+	color:#fff;
+	padding: 5px 10px;
+	font-size:.9em;
+}
+
+#newSite button:hover{
+	background:#fff;
+	color:#003366;
+}
+
 #mission img {
   display: none;
 }
@@ -44,7 +72,6 @@ body {
   width: 100%;
   margin: 1% 0 1% 0;
   padding-bottom: 10px;
-  font-family: Scada, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #323232;
 }
 #mission p#mobile_statement {
